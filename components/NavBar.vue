@@ -61,6 +61,9 @@ body nav {
     background-color: #0e3250;
 
 }
+.dark-mode h3{
+    color: white;
+}
 .sepia-mode body {
     background-color: #f1e7d0;
     color: #433422;

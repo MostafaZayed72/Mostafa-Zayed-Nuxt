@@ -1,5 +1,5 @@
 <template>
-    <div class="about-me mt-16">
+    <div class="about-me">
       <v-container
         ><v-row
           ><v-col cols="12"

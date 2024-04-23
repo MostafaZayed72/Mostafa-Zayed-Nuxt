@@ -1,11 +1,12 @@
 <template>
-    <div>
+    <div class="sm:w-100 md:w-[80%] ">
       <v-progress-linear
         v-model="css"
         color="blue"
         height="25"
-      ><template v-slot:default="{ value }">
-          <strong>{{ Math.ceil(value) }}%</strong>
+        
+      ><template v-slot:default="{ value }" >
+          <strong >{{ Math.ceil(value) }}%</strong>
           <h1 class="ml-2">CSS</h1>
         </template> </v-progress-linear>
   

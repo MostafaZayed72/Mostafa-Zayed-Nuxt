@@ -53,7 +53,7 @@
             </NuxtLink>
         </swiper-slide>
         <swiper-slide>
-            <NuxtLink target="blanket" to="https://mostafazayed72.github.io/Hang-Man-Game/"><img class="rounded h-[250px]"
+            <NuxtLink target="blanket" to="https://mostafazayed72.github.io/Template_tow/"><img class="rounded h-[250px]"
                     src="/assets/imgs/Kasper.png" />
                 <h1 class="text-center text-xl font-bold mt-5">Kasper Css project</h1>
             </NuxtLink>

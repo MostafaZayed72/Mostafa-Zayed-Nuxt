@@ -31,6 +31,7 @@
                         <a href="https://wh.ms/201099658770" target="_blank">
                             <v-icon>mdi-whatsapp</v-icon>
                         </a>
+                        <DownloadPdf />
                     </div>
                 </v-col></v-row>
         </v-container>

@@ -1,10 +1,21 @@
 <template>
+
+
     <div>
         <NavBar />
         <SocialLinks />
-        <About class="mt-16"/>
-        <SkillsExperienceEducation class="mt-16"/>
-        <ScrollToTopButton class="z-10 cursor-pointer"/>
+        <v-lazy :min-height="200" :options="{ 'threshold': 0.5 }" transition="fade-transition">
+            <About class="mt-16" />
+        </v-lazy>
+        <v-lazy :min-height="200" :options="{ 'threshold': 0.5 }" transition="fade-transition">
+            <SkillsExperienceEducation class="mt-16" />
+        </v-lazy>
+        <v-lazy :min-height="200" :options="{ 'threshold': 0.5 }" transition="fade-transition">
+            <MyServices class="mt-16" />
+        </v-lazy>
+        <v-lazy :min-height="200" :options="{ 'threshold': 0.5 }" transition="fade-transition">
+            <MyPortfolio class="mt-16" />
+        </v-lazy>
+        <ScrollToTopButton class="z-10 cursor-pointer" />
     </div>
-</template>
-
+</template>1

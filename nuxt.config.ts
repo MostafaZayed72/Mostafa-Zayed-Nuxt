@@ -9,7 +9,7 @@ export default defineNuxtConfig({
   build: {
     transpile: ['vuetify'],
   },
-  modules: ["@nuxtjs/tailwindcss",'@nuxtjs/color-mode',(_options, nuxt) => {
+  modules: ['nuxt-icon',"@nuxtjs/tailwindcss",'@nuxtjs/color-mode',(_options, nuxt) => {
     nuxt.hooks.hook('vite:extendConfig', (config) => {
       // @ts-expect-error
       config.plugins.push(vuetify({ autoImport: true }))

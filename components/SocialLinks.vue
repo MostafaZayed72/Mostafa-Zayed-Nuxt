@@ -16,14 +16,14 @@
                         <div class="your-element-selectorr text-3xl text-green-500 text-center "
                             style="font-size: 30px; font-weight: bold"></div>
                     </div>
-                    <img style="border: 4px solid greenyellow; width: 500px;height: 500px; border-radius: 50%;"
+                    <!-- <img style="border: 4px solid greenyellow; width: 500px;height: 500px; border-radius: 50%;"
                         class="move-up-down hidden md:block mx-auto"
                         src="@/assets/imgs/myPic.jpg"
                         alt="" />
                     <img style="border: 4px solid greenyellow; width: 300px;height: 300px; border-radius: 50%;"
                         class="move-up-down  md:hidden mx-auto"
                         src="@/assets/imgs/myPic.jpg"
-                        alt="" />
+                        alt="" /> -->
                 </v-col><v-col cols="12" lg="1" class="text-center flex">
                     <div class="social-icons flex justify-center text-center mx-auto gap-5 align-center my-auto">
                         <a href="https://www.facebook.com/Mostafazayed2020"

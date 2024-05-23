@@ -18,11 +18,11 @@
                     </div>
                     <img style="border: 4px solid greenyellow; width: 500px;height: 500px; border-radius: 50%;"
                         class="move-up-down hidden md:block mx-auto"
-                        src="https://scontent-hbe1-1.xx.fbcdn.net/v/t1.6435-9/64267706_2326894094062264_3720593953637007360_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGkVVJ65IYssgHmxJQNtfRBmPFI0Ktv_kuY8UjQq2_-S9wjXe-vMUjkhjhz-C1Mqehih_VBti7Qz0RSItZAFmAz&_nc_ohc=uafivazBz9kAb5X37No&_nc_oc=Adj2F-Fg4k2RNJNxbKhEDyTSFim7ls7cT6OeWJE404xasx69m2RfFodyQGHxFz704eQ&_nc_ht=scontent-hbe1-1.xx&oh=00_AfCgVtBTJBTQW4N3Cuix2unzwdOVolim5YQWevzikUxPXA&oe=664E3838"
+                        src="/assets/imgs/myPic.jpg"
                         alt="" />
                     <img style="border: 4px solid greenyellow; width: 300px;height: 300px; border-radius: 50%;"
                         class="move-up-down  md:hidden mx-auto"
-                        src="https://scontent-hbe1-1.xx.fbcdn.net/v/t1.6435-9/64267706_2326894094062264_3720593953637007360_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGkVVJ65IYssgHmxJQNtfRBmPFI0Ktv_kuY8UjQq2_-S9wjXe-vMUjkhjhz-C1Mqehih_VBti7Qz0RSItZAFmAz&_nc_ohc=uafivazBz9kAb5X37No&_nc_oc=Adj2F-Fg4k2RNJNxbKhEDyTSFim7ls7cT6OeWJE404xasx69m2RfFodyQGHxFz704eQ&_nc_ht=scontent-hbe1-1.xx&oh=00_AfCgVtBTJBTQW4N3Cuix2unzwdOVolim5YQWevzikUxPXA&oe=664E3838"
+                        src="/assets/imgs/myPic.jpg"
                         alt="" />
                 </v-col><v-col cols="12" lg="1" class="text-center flex">
                     <div class="social-icons flex justify-center text-center mx-auto gap-5 align-center my-auto">

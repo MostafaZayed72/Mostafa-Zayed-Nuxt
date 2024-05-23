@@ -11,7 +11,7 @@
         slideShadows: true,
     }" :pagination="true" :modules="modules" class="mySwiper">
         <swiper-slide>
-            <NuxtLink target="blanket" to="https://elgendy-landing.vercel.app/"><img class="rounded h-[250px]"
+            <NuxtLink target="blanket" to="https://api-dev.xfit.sa/"><img class="rounded h-[250px]"
                     src="/assets/imgs/elgendy.png" />
                 <h1 class="text-center text-xl font-bold mt-5">El-Gendy Project</h1>
             </NuxtLink>
@@ -26,6 +26,12 @@
             <NuxtLink target="blanket" to="https://archo-chi.vercel.app/"><img class="rounded h-[250px]"
                     src="/assets/imgs/archo.png" />
                 <h1 class="text-center text-xl font-bold mt-5">Archo Project</h1>
+            </NuxtLink>
+        </swiper-slide>
+        <swiper-slide>
+            <NuxtLink target="blanket" to="https://elgendy-landing.vercel.app/"><img class="rounded h-[250px]"
+                    src="/assets/imgs/xfit.png" />
+                <h1 class="text-center text-xl font-bold mt-5">Xfit-Saudia</h1>
             </NuxtLink>
         </swiper-slide>
         <swiper-slide>

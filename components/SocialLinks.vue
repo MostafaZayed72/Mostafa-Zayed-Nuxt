@@ -7,7 +7,7 @@
                     </h1>
                     <div class="your-element-selector text-3xl text-green-500 text-center "
                         style="font-size: 30px; font-weight: bold"></div>
-                </v-col><v-col cols="12" lg="6">
+                </v-col><v-col cols="12" lg="5">
                     <div class="lg:hidden flex gap-5 items-center">
                         <h1 class="text-3xl mt-4 text-sky-700 mb-6 text-center"
                             style="font-size: 50px; font-weight: bold">
@@ -16,15 +16,15 @@
                         <div class="your-element-selectorr text-3xl text-green-500 text-center "
                             style="font-size: 30px; font-weight: bold"></div>
                     </div>
-                    <!-- <img style="border: 4px solid greenyellow; width: 500px;height: 500px; border-radius: 50%;"
+                    <img style="border: 4px solid greenyellow; width: 500px;height: 500px; border-radius: 50%;"
                         class="move-up-down hidden md:block mx-auto"
-                        src="@/assets/imgs/myPic.jpg"
+                        src="@/assets/imgs/leon.png"
                         alt="" />
                     <img style="border: 4px solid greenyellow; width: 300px;height: 300px; border-radius: 50%;"
                         class="move-up-down  md:hidden mx-auto"
-                        src="@/assets/imgs/myPic.jpg"
-                        alt="" /> -->
-                </v-col><v-col cols="12" lg="1" class="text-center flex">
+                        src="@/assets/imgs/leon.png"
+                        alt="" />
+                </v-col><v-col cols="12" lg="2" class="text-center flex">
                     <div class="social-icons flex justify-center text-center mx-auto gap-5 align-center my-auto">
                         <a href="https://www.facebook.com/Mostafazayed2020"
                             target="_blank"><v-icon>mdi-facebook</v-icon></a>

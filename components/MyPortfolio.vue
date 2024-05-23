@@ -31,7 +31,7 @@
         <swiper-slide>
             <NuxtLink target="blanket" to="https://elgendy-landing.vercel.app/"><img class="rounded h-[250px]"
                     src="/assets/imgs/xfit.png" />
-                <h1 class="text-center text-xl font-bold mt-5">Xfit-Saudi</h1>
+                <h1 class="text-center text-xl font-bold mt-5">Xfit-Saudia</h1>
             </NuxtLink>
         </swiper-slide>
         <swiper-slide>

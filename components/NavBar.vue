@@ -8,10 +8,10 @@
         <!-- LINKS IN LARGE SCREEN -->
         <div class="mr-10 hidden lg:block">
             <ul class="flex gap-20 items-center font-semibold">
-                <li>HOME</li>
-                <li>ABOUT</li>
-                <li>SERVICES</li>
-                <li>PORTFOLIO</li>
+                <li><a href="#about" @click.prevent="scrollToSection('about')">About</a></li>
+      <li><a href="#skills" @click.prevent="scrollToSection('skills')">Skills & Experience</a></li>
+      <li><a href="#services" @click.prevent="scrollToSection('services')">My Services</a></li>
+      <li><a href="#portfolio" @click.prevent="scrollToSectiony('portfolio')">My Portfolio</a></li>
                 <li class="flex gap-2 items-center">
                     <h1>Theme Mode:</h1><select v-model="$colorMode.preference" class="px-2 py-1 text-center"
                         style="border: 1px solid;">
@@ -24,7 +24,7 @@
             </ul>
         </div>
         <!-- LINKS IN SMALL SCREEN -->
-        <div class="mr-5 md:mr-10 lg:hidden flex items-center gap-2" >
+        <div class="mr-5 md:mr-10 lg:hidden flex items-center gap-2">
             <h1>Theme Mode:</h1><select v-model="$colorMode.preference" class="px-2 py-1 rounded text-center"
                 style="border: 1px solid ;">
                 <option value="system">System</option>
@@ -40,7 +40,27 @@
 
 <script setup>
 const colorMode = useColorMode()
+const scrollToSectiony = (sectionId) => {
+  const section = document.getElementById(sectionId);
+  if (section) {
+    section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+};
 
+const scrollToSection = (sectionId) => {
+  const section = document.getElementById(sectionId);
+  if (section) {
+    section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    // استخدام setTimeout لضبط الإزاحة بعد التمرير السلس
+    setTimeout(() => {
+      window.scrollBy({
+        top: -100,
+        left: 0,
+        behavior: 'smooth'
+      });
+    }, 500); // الوقت هنا لضمان انتهاء التمرير الأول قبل إضافة الإزاحة
+  }
+};
 </script>
 
 <style>
@@ -52,23 +72,28 @@ body {
 body nav {
     background-color: #dbd5d5;
 }
+
 .dark-mode body {
     background-color: #091a28;
     color: #19c53e;
     border-color: #19c53e;
 }
-.dark-mode nav{
+
+.dark-mode nav {
     background-color: #0e3250;
 
 }
-.dark-mode h3{
+
+.dark-mode h3 {
     color: white;
 }
+
 .sepia-mode body {
     background-color: #f1e7d0;
     color: #433422;
 }
-.sepia-mode nav{
+
+.sepia-mode nav {
     background-color: #f5dda8;
 
 }

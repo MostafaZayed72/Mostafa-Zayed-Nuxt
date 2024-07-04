@@ -44,6 +44,12 @@
       </NuxtLink>
     </swiper-slide>
     <swiper-slide>
+      <NuxtLink target="blanket" to="https://mostafa-zayed.vercel.app/azkar"
+        ><img class="rounded h-[250px]" src="/assets/imgs/azkar.png" />
+        <h1 class="text-center text-xl font-bold mt-5">Azkar Project</h1>
+      </NuxtLink>
+    </swiper-slide>
+    <swiper-slide>
       <NuxtLink target="blanket" to="https://elsalam-vegetables-oils.vercel.app/"
         ><img class="rounded h-[250px]" src="/assets/imgs/elsalam.png" />
         <h1 class="text-center text-xl font-bold mt-5">El-salam project</h1>

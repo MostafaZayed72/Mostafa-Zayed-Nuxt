@@ -10,10 +10,11 @@
             </v-icon>
           </div>
           <v-select
+          style="direction: rtl;"
             v-model="selectedDhikr"
             :items="dhikrOptions"
             label="اختر الذكر"
-            class="mb-4 dark:text-white"
+            class="mb-4 dark:text-white text-center"
             @change="handleDhikrChange"
           ></v-select>
           

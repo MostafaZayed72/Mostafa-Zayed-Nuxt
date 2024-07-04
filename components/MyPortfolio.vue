@@ -26,6 +26,12 @@
     class="mySwiper"
   >
     <swiper-slide>
+      <NuxtLink target="blanket" to="https://financial-report-umber.vercel.app/"
+        ><img class="rounded h-[250px]" src="/assets/imgs/finance.png" />
+        <h1 class="text-center text-xl font-bold mt-5">Stocks Project</h1>
+      </NuxtLink>
+    </swiper-slide>
+    <swiper-slide>
       <NuxtLink target="blanket" to="https://elgendy-landing.vercel.app/"
         ><img class="rounded h-[250px]" src="/assets/imgs/elgendy.png" />
         <h1 class="text-center text-xl font-bold mt-5">El-Gendy Project</h1>
